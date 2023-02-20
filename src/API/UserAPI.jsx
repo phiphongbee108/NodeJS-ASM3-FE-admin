@@ -12,11 +12,11 @@ const UserAPI = {
   },
 
   postSignUp: (query) => {
-    const url = `https://oval-legend-web.glitch.me/api/auth/singup/`;
+    const url = `https://nodejs-asm3-admin.glitch.me/api/auth/singup/`;
     return axiosClient.post(url, query);
   },
   postSignIng: (query) => {
-    const url = "https://oval-legend-web.glitch.me/api/auth/logingadmin/";
+    const url = "https://nodejs-asm3-admin.glitch.me/api/auth/logingadmin/";
     return axiosClient.post(url, query);
   },
 };
